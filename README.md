@@ -19,4 +19,5 @@ The [TPC-H](https://www.tpc.org/tpch/) model dataset is a widely recognized benc
 ### How to Connect to Snowflake Data
 1. The supporting data for TPC-H is already available in Snowflake's public data share in the `SNOWFLAKE_SAMPLE_DATA/TPCH_SFx` schemas. The SML connection object in this repository already points to the `SNOWFLAKE_SAMPLE_DATA/TPCH_SF1` schema.
 2. The model requires a date table called `datecustom` to support the date dimension. Run the [CreateDateCustomTable.sql](data/CreateDateCustomTable.sql) SQL script in this repository to create the `datecustom` table and data that matches the TPC-H data.
+3. Update the `Connection - DateCustom.yml` connection SML file to point to the database and schema where you created the `DateCustom` table.
 
