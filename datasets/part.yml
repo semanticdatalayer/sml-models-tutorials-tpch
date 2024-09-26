@@ -20,5 +20,5 @@ columns:
     data_type: decimal(12,2)
   - name: P_COMMENT
     data_type: string
-connection_id: snowflake_test_conn
+connection_id: Connection - TPCH
 table: PART

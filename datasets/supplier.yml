@@ -16,5 +16,5 @@ columns:
     data_type: decimal(12,2)
   - name: S_COMMENT
     data_type: string
-connection_id: snowflake_test_conn
+connection_id: Connection - TPCH
 table: SUPPLIER

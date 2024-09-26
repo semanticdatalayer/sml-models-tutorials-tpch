@@ -54,5 +54,5 @@ columns:
     data_type: datetime
   - name: YEAR_NAME
     data_type: string
-connection_id: con_atscale_tutorial_data_as_adventure
+connection_id: Connection - DateCustom
 table: DATECUSTOM

@@ -1,0 +1,6 @@
+unique_name: Connection - TPCH
+label: Connection - TPCH
+object_type: connection
+as_connection: Snowflake
+database: SNOWFLAKE_SAMPLE_DATA
+schema: TPCH_SF1
