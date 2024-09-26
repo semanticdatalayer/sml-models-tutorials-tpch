@@ -1,0 +1,6 @@
+unique_name: Connection - DateCustom
+object_type: connection
+label: Connection - DateCustom
+as_connection: Connection - TPCH
+database: <YOUR DATABASE FOR DATECUSTOM>
+schema: <YOUR SCHEMA FOR DATECUSTOM>

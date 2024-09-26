@@ -1,7 +1,7 @@
 unique_name: tpc-h
 object_type: catalog
 label: tpc-h
-as_version: 1.0
+version: 1.0
 aggressive_agg_promotion: false
 build_speculative_aggs: false
 version: 1
