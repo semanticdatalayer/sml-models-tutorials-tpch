@@ -1,0 +1,58 @@
+unique_name: DateCustom
+object_type: dataset
+label: DateCustom
+columns:
+  - name: DATE_NAME
+    data_type: string
+  - name: DATEKEY
+    data_type: decimal(38,0)
+  - name: DATEKEY_DATE
+    data_type: date
+    sql: "CAST(\"PK_DATE\" AS DATE)"
+  - name: DAY_OF_WEEK
+    data_type: decimal(38,0)
+  - name: DAY_OF_WEEK_NAME
+    data_type: string
+  - name: DAY_OF_YEAR
+    data_type: decimal(38,0)
+  - name: DAY_OF_YEAR_NAME
+    data_type: string
+  - name: HALF_YEAR
+    data_type: datetime
+  - name: HALF_YEAR_NAME
+    data_type: string
+  - name: MONTH
+    data_type: datetime
+  - name: MONTH_DATE
+    data_type: date
+    sql: "CAST(\"MONTH\" AS DATE)"
+  - name: MONTH_NAME
+    data_type: string
+  - name: MONTH_OF_YEAR
+    data_type: decimal(38,0)
+  - name: MONTH_OF_YEAR_NAME
+    data_type: string
+  - name: PK_DATE
+    data_type: datetime
+  - name: QUARTER
+    data_type: datetime
+  - name: QUARTER_NAME
+    data_type: string
+  - name: QUARTER_OF_YEAR
+    data_type: decimal(38,0)
+  - name: QUARTER_OF_YEAR_NAME
+    data_type: string
+  - name: WEEK
+    data_type: datetime
+  - name: WEEK_NAME
+    data_type: string
+  - name: WEEK_OF_YEAR
+    data_type: decimal(38,0)
+  - name: WEEK_OF_YEAR_NAME
+    data_type: string
+  - name: YEAR
+    data_type: datetime
+  - name: YEAR_NAME
+    data_type: string
+connection_id: con_atscale_tutorial_data_as_adventure
+table: DATECUSTOM

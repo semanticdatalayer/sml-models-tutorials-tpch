@@ -1,0 +1,8 @@
+unique_name: m_l_tax_sum
+object_type: metric
+label: Item Tax
+description: total sales tax by item
+calculation_method: sum
+column: L_TAX
+dataset: lineitem
+format: $#,##0.00

@@ -1,0 +1,24 @@
+unique_name: Return Flag
+object_type: dimension
+label: Return Flag
+description: Item return flag
+hierarchies:
+  - unique_name: L_Return_Flag Hierarchy
+    label: Return Flag
+    filter_empty: 'yes'
+    folder: Items
+    levels:
+      - unique_name: L_Return_Flag Level
+is_degenerate: true
+level_attributes:
+  - unique_name: L_Return_Flag Level
+    label: Return Flag
+    description: Return flag indicator
+    dataset: lineitem
+    key_columns:
+      - L_RETURNFLAG
+    name_column: L_RETURNFLAG
+modeler_metadata:
+  version: '0'
+  modified: 'false'
+type: standard

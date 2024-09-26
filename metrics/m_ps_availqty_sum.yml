@@ -1,0 +1,8 @@
+unique_name: m_ps_availqty_sum
+object_type: metric
+label: Part Availability Quantity
+description: Number of available items
+calculation_method: sum
+column: PS_AVAILQTY
+dataset: partsupp
+format: '#,##0'

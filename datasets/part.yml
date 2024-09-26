@@ -1,0 +1,24 @@
+unique_name: part
+object_type: dataset
+label: part
+columns:
+  - name: P_PARTKEY
+    data_type: decimal(38,0)
+  - name: P_NAME
+    data_type: string
+  - name: P_MFGR
+    data_type: string
+  - name: P_BRAND
+    data_type: string
+  - name: P_TYPE
+    data_type: string
+  - name: P_SIZE
+    data_type: decimal(38,0)
+  - name: P_CONTAINER
+    data_type: string
+  - name: P_RETAILPRICE
+    data_type: decimal(12,2)
+  - name: P_COMMENT
+    data_type: string
+connection_id: snowflake_test_conn
+table: PART

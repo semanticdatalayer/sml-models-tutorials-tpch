@@ -1,0 +1,8 @@
+unique_name: m_l_quantity_sum
+object_type: metric
+label: Item Quantity
+description: the total number of items in the order
+calculation_method: sum
+column: L_QUANTITY
+dataset: lineitem
+format: '#,##0'

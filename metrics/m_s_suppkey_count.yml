@@ -1,0 +1,8 @@
+unique_name: m_s_suppkey_count
+object_type: metric
+label: Number of Unique Suppliers
+description: Count of unique suppliers
+calculation_method: count distinct
+column: S_SUPPKEY
+dataset: supplier
+format: '#,##0'

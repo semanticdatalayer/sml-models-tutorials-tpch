@@ -1,0 +1,8 @@
+unique_name: m_ps_supplycost_sum
+object_type: metric
+label: Part Supplier Cost
+description: Total cost of parts
+calculation_method: sum
+column: PS_SUPPLYCOST
+dataset: partsupp
+format: $#,##0.00
