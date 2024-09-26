@@ -1,5 +1,5 @@
 CREATE TABLE 
-    datecustom AS
+    "DateCustom" AS
 SELECT 
     date_day::TIMESTAMP                          AS pk_date,
     CAST(TO_CHAR(date_day, '%Y%m%d') AS DECIMAL) AS datekey,
