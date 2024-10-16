@@ -2,5 +2,5 @@ unique_name: Connection - DateCustom
 object_type: connection
 label: Connection - DateCustom
 as_connection: Snowflake
-database: <YOUR DATABASE FOR DATECUSTOM>
-schema: <YOUR SCHEMA FOR DATECUSTOM>
+database: DEMO
+schema: PUBLIC
