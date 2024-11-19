@@ -49,7 +49,7 @@ hierarchies:
             sort_column: O_SHIPPRIORITY
 level_attributes:
   - unique_name: Orders Dimension Level
-    label: Orders Dimension Level
+    label: Order Key
     description: The unique identifier for the order
     dataset: orders
     is_unique_key: true

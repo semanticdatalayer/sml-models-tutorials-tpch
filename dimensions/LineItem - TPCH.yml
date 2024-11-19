@@ -1,0 +1,51 @@
+unique_name: LineItem - TPCH
+object_type: dimension
+label: Item
+description: This is the line item dimension
+hierarchies:
+  - unique_name: LineItem Hierarchy
+    label: LineItem
+    description: Line Item Hiearchy
+    levels:
+      - unique_name: LineItem Level
+      - unique_name: L_ORDERKEY
+      - unique_name: L_SUPPKEY
+level_attributes:
+  - unique_name: LineItem Level
+    label: LineItem Number
+    description: Line Item Level
+    contains_unique_names: false
+    dataset: lineitem
+    is_unique_key: true
+    key_columns:
+      - L_LINENUMBER
+    name_column: L_LINENUMBER
+  - unique_name: L_ORDERKEY
+    label: LineItem Order Key
+    contains_unique_names: false
+    dataset: lineitem
+    is_unique_key: false
+    key_columns:
+      - L_ORDERKEY
+    name_column: L_ORDERKEY
+  - unique_name: L_SUPPKEY
+    label: LineItem Supplier Key
+    contains_unique_names: false
+    dataset: lineitem
+    is_unique_key: false
+    key_columns:
+      - L_SUPPKEY
+    name_column: L_SUPPKEY
+relationships:
+  - unique_name: lineitem_L_SUPPKEY_to_Supplier - TPCH_Supplier - TPCH Level
+    from:
+      dataset: lineitem
+      hierarchy: LineItem Hierarchy
+      join_columns:
+        - L_SUPPKEY
+      level: LineItem Level
+    to:
+      dimension: Supplier - TPCH
+      level: Supplier - TPCH Level
+    type: embedded
+type: standard

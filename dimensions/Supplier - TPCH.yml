@@ -40,7 +40,7 @@ hierarchies:
             sort_column: S_PHONE
 level_attributes:
   - unique_name: Supplier - TPCH Level
-    label: Supplier - TPCH Level
+    label: Supplier Key
     description: the id of the supplier
     dataset: supplier
     is_unique_key: true
