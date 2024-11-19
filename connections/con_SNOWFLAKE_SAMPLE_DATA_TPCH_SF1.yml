@@ -1,0 +1,6 @@
+unique_name: con_SNOWFLAKE_SAMPLE_DATA_TPCH_SF1
+object_type: connection
+label: con_SNOWFLAKE_SAMPLE_DATA_TPCH_SF1
+as_connection: Snowflake_Fidelity
+database: SNOWFLAKE_SAMPLE_DATA
+schema: TPCH_SF1
