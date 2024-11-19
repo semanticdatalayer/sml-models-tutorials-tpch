@@ -133,4 +133,20 @@ relationships:
     to:
       dimension: Customer - TPCH
       level: Customer - TPCH Level
+  - unique_name: orders_O_ORDERKEY_to_LineItem - TPCH_L_ORDERKEY
+    from:
+      dataset: orders
+      join_columns:
+        - O_ORDERKEY
+    to:
+      dimension: LineItem - TPCH
+      level: L_ORDERKEY
+  - unique_name: supplier_S_SUPPKEY_to_LineItem - TPCH_L_SUPPKEY
+    from:
+      dataset: supplier
+      join_columns:
+        - S_SUPPKEY
+    to:
+      dimension: LineItem - TPCH
+      level: L_SUPPKEY
 visible: true

@@ -65,7 +65,7 @@ hierarchies:
             sort_column: P_TYPE
 level_attributes:
   - unique_name: Parts - TPCH Level
-    label: Parts - TPCH Level
+    label: Parts Key
     description: The name of the part
     dataset: part
     is_unique_key: true
