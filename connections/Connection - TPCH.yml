@@ -1,6 +1,6 @@
 unique_name: Connection - TPCH
 label: Connection - TPCH
 object_type: connection
-as_connection: Snowflake
+as_connection: Snowflake - AtScale
 database: SNOWFLAKE_SAMPLE_DATA
 schema: TPCH_SF1
