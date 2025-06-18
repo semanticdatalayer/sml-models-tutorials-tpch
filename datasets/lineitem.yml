@@ -6,13 +6,13 @@ columns:
     data_type: decimal(38,4)
     sql: L_EXTENDEDPRICE * (1 - L_DISCOUNT)
   - name: L_ORDERKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: L_PARTKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: L_SUPPKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: L_LINENUMBER
-    data_type: decimal(38,0)
+    data_type: long
   - name: L_QUANTITY
     data_type: decimal(12,2)
   - name: L_EXTENDEDPRICE

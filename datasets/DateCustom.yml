@@ -5,16 +5,16 @@ columns:
   - name: DATE_NAME
     data_type: string
   - name: DATEKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: DATEKEY_DATE
     data_type: date
     sql: "CAST(\"PK_DATE\" AS DATE)"
   - name: DAY_OF_WEEK
-    data_type: decimal(38,0)
+    data_type: long
   - name: DAY_OF_WEEK_NAME
     data_type: string
   - name: DAY_OF_YEAR
-    data_type: decimal(38,0)
+    data_type: long
   - name: DAY_OF_YEAR_NAME
     data_type: string
   - name: HALF_YEAR
@@ -29,7 +29,7 @@ columns:
   - name: MONTH_NAME
     data_type: string
   - name: MONTH_OF_YEAR
-    data_type: decimal(38,0)
+    data_type: long
   - name: MONTH_OF_YEAR_NAME
     data_type: string
   - name: PK_DATE
@@ -39,7 +39,7 @@ columns:
   - name: QUARTER_NAME
     data_type: string
   - name: QUARTER_OF_YEAR
-    data_type: decimal(38,0)
+    data_type: long
   - name: QUARTER_OF_YEAR_NAME
     data_type: string
   - name: WEEK
@@ -47,7 +47,7 @@ columns:
   - name: WEEK_NAME
     data_type: string
   - name: WEEK_OF_YEAR
-    data_type: decimal(38,0)
+    data_type: long
   - name: WEEK_OF_YEAR_NAME
     data_type: string
   - name: YEAR

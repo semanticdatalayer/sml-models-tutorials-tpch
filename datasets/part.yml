@@ -3,7 +3,7 @@ object_type: dataset
 label: part
 columns:
   - name: P_PARTKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: P_NAME
     data_type: string
   - name: P_MFGR
@@ -13,7 +13,7 @@ columns:
   - name: P_TYPE
     data_type: string
   - name: P_SIZE
-    data_type: decimal(38,0)
+    data_type: long
   - name: P_CONTAINER
     data_type: string
   - name: P_RETAILPRICE

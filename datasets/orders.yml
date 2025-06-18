@@ -3,9 +3,9 @@ object_type: dataset
 label: orders
 columns:
   - name: O_ORDERKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: O_CUSTKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: O_ORDERSTATUS
     data_type: string
   - name: O_TOTALPRICE
@@ -17,7 +17,7 @@ columns:
   - name: O_CLERK
     data_type: string
   - name: O_SHIPPRIORITY
-    data_type: decimal(38,0)
+    data_type: long
   - name: O_COMMENT
     data_type: string
 connection_id: Connection - TPCH

@@ -3,13 +3,13 @@ object_type: dataset
 label: supplier
 columns:
   - name: S_SUPPKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: S_NAME
     data_type: string
   - name: S_ADDRESS
     data_type: string
   - name: S_NATIONKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: S_PHONE
     data_type: string
   - name: S_ACCTBAL

@@ -3,11 +3,11 @@ object_type: dataset
 label: partsupp
 columns:
   - name: PS_PARTKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: PS_SUPPKEY
-    data_type: decimal(38,0)
+    data_type: long
   - name: PS_AVAILQTY
-    data_type: decimal(38,0)
+    data_type: long
   - name: PS_SUPPLYCOST
     data_type: decimal(12,2)
   - name: PS_COMMENT
