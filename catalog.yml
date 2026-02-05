@@ -1,6 +1,7 @@
 unique_name: tpc-h
 object_type: catalog
 label: tpc-h
+description: The tpc-h catalog contains the Retail TPC-H model that is based on TPC-H, an industry-standard decision support benchmark that models a wholesale supplier business. It uses a normalized relational schema centered on orders, line items, customers, and suppliers, and is designed to evaluate the performance of ad hoc queries, complex joins, and aggregations typical of analytical and reporting workloads.
 version: 1.0
 aggressive_agg_promotion: false
 build_speculative_aggs: false
