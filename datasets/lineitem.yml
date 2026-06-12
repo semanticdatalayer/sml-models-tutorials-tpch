@@ -1,6 +1,7 @@
 unique_name: lineitem
 object_type: dataset
 label: lineitem
+description: "TPC-H line item fact table at order line grain: quantity, extended price, discount, tax, return flag, ship mode, and ship/commit/receipt dates. Includes the derived Item Revenue column (extended price x (1 - discount))."
 columns:
   - name: Item Revenue
     data_type: decimal(38,4)

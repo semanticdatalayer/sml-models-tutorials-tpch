@@ -1,6 +1,7 @@
 unique_name: nation
 object_type: dataset
 label: nation
+description: "TPC-H nation lookup: nation key, country name, and region key. Joined to customers and suppliers."
 columns:
   - name: N_NATIONKEY
     data_type: decimal(38,0)

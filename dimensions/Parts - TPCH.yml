@@ -5,6 +5,7 @@ description: Parts dimension for the TPCH model
 hierarchies:
   - unique_name: Parts - TPCH Hierarchy
     label: Parts - TPCH Hierarchy
+    description: "Part / product rollup with the part at the leaf; carries brand, manufacturer, type, size, container, and retail price attributes."
     levels:
       - unique_name: Parts - TPCH Level
         is_hidden: true

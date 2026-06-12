@@ -22,6 +22,7 @@ level_attributes:
     name_column: L_LINENUMBER
   - unique_name: L_ORDERKEY
     label: LineItem Order Key
+    description: "Order key / order number on the line item, for grouping line items by their parent order. Degenerate key level; contrast Order Key in the Orders - TPCH dimension."
     contains_unique_names: false
     dataset: lineitem
     is_unique_key: false
@@ -30,6 +31,7 @@ level_attributes:
     name_column: L_ORDERKEY
   - unique_name: L_SUPPKEY
     label: LineItem Supplier Key
+    description: "Supplier key on the line item identifying the supplying vendor. Degenerate key level; contrast Supplier Key in the Supplier dimension."
     contains_unique_names: false
     dataset: lineitem
     is_unique_key: false

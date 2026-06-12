@@ -5,6 +5,7 @@ description: Supplier dimension
 hierarchies:
   - unique_name: Supplier - TPCH Hierarchy
     label: Supplier - TPCH Hierarchy
+    description: "Supplier / vendor rollup with the supplier at the leaf; carries supplier name, address, country, and phone attributes. Seller side; contrast Customer."
     filter_empty: 'yes'
     folder: Suppliers
     levels:

@@ -5,6 +5,7 @@ description: Location dimension
 hierarchies:
   - unique_name: Location Hierarchy
     label: Location Hierarchy
+    description: "Geographic rollup Region > Country (nation). Role-played as Customer location or Supplier location."
     filter_empty: 'yes'
     folder: Locations
     levels:

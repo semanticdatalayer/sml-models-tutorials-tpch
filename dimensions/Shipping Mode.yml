@@ -8,6 +8,7 @@ hierarchies:
 
   - unique_name: L_Ship_Mode Hierarchy
     label: Shipping Mode
+    description: "Single-level grouping of line items by shipping / delivery mode (e.g. AIR, RAIL, TRUCK, SHIP, MAIL, FOB, REG AIR)."
     filter_empty: "yes"
     folder: Shipping
 
@@ -19,6 +20,7 @@ level_attributes:
 
   - unique_name: L_Ship_Mode Level
     label: Shipping Mode
+    description: "Shipping / delivery mode of the line item (e.g. AIR, RAIL, TRUCK, SHIP, MAIL, FOB, REG AIR). Degenerate attribute from the lineitem fact."
     dataset: lineitem
     key_columns:
       - L_SHIPMODE

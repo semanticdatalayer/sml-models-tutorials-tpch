@@ -5,6 +5,7 @@ description: Orders dimension for the TPCH model
 hierarchies:
   - unique_name: Orders Dimension Hierarchy
     label: Orders Dimension Hierarchy
+    description: "Order rollup with the order key at the leaf; carries clerk, order priority, order status, and shipping priority attributes."
     filter_empty: 'yes'
     folder: Orders
     levels:

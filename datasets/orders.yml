@@ -1,6 +1,7 @@
 unique_name: orders
 object_type: dataset
 label: orders
+description: "TPC-H orders table at order grain: order key, customer key, status, total price, order date, priority, and clerk."
 columns:
   - name: O_ORDERKEY
     data_type: decimal(38,0)
