@@ -1,6 +1,7 @@
 unique_name: customer
 object_type: dataset
 label: customer
+description: "TPC-H customer master: customer key, name, address, nation key, phone, account balance, and market segment."
 columns:
   - name: C_CUSTKEY
     data_type: long

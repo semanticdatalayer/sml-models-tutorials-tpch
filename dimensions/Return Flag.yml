@@ -5,6 +5,7 @@ description: Item return flag
 hierarchies:
   - unique_name: L_Return_Flag Hierarchy
     label: Return Flag
+    description: "Single-level grouping of line items by return flag (values R = returned, A, N)."
     filter_empty: 'yes'
     folder: Items
     levels:

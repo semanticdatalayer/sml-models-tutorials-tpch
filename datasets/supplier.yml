@@ -1,6 +1,7 @@
 unique_name: supplier
 object_type: dataset
 label: supplier
+description: "TPC-H supplier master: supplier key, name, address, nation key, phone, and account balance."
 columns:
   - name: S_SUPPKEY
     data_type: long

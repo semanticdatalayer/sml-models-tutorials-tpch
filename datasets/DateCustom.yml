@@ -1,6 +1,7 @@
 unique_name: DateCustom
 object_type: dataset
 label: DateCustom
+description: "Date dimension table with the standard Gregorian calendar at day grain: date key, month, and year columns."
 columns:
   - name: DATE_NAME
     data_type: string

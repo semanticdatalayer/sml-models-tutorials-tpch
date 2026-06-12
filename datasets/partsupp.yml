@@ -1,6 +1,7 @@
 unique_name: partsupp
 object_type: dataset
 label: partsupp
+description: "TPC-H part-supplier bridge: available quantity and supply cost for each part and supplier combination."
 columns:
   - name: PS_PARTKEY
     data_type: long

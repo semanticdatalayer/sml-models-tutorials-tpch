@@ -5,6 +5,7 @@ description: Customer dimension for TPCH Model
 hierarchies:
   - unique_name: Customer - TPCH Hierarchy
     label: Customer - TPCH Hierarchy
+    description: "Customer rollup with the individual customer at the leaf; carries customer name, address, and phone attributes. Buyer of orders; contrast Supplier."
     filter_empty: 'yes'
     folder: Customers
     levels:

@@ -5,6 +5,7 @@ description: Date Dimension to cover standard Gregorian calendar
 hierarchies:
   - unique_name: Date Hierarchy - TPCH
     label: Date Hierarchy - TPCH
+    description: "Standard Gregorian calendar rollup Year > Month > Day. Role-played per date role: Order Date, Item Ship, Item Receipt, and Item Commit dates."
     filter_empty: 'yes'
     folder: Time
     levels:

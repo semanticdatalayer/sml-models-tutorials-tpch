@@ -1,6 +1,7 @@
 unique_name: part
 object_type: dataset
 label: part
+description: "TPC-H part master: part key, name, manufacturer, brand, type, size, container, and retail price."
 columns:
   - name: P_PARTKEY
     data_type: long

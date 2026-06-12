@@ -1,6 +1,7 @@
 unique_name: region
 object_type: dataset
 label: region
+description: "TPC-H region lookup: region key and region name (e.g. AMERICA, ASIA, EUROPE)."
 columns:
   - name: R_REGIONKEY
     data_type: long
